@@ -37,6 +37,8 @@ from omni.isaac.core.utils.torch.rotations import *
 from omniisaacgymenvs.tasks.base.rl_task import RLTask
 from omniisaacgymenvs.robots.articulations.quadcopter import Quadcopter
 from omniisaacgymenvs.robots.articulations.views.quadcopter_view import QuadcopterView
+import scripts.neat as RLTask
+
 
 
 class QuadcopterTask(RLTask):
